@@ -180,6 +180,7 @@ export const Editor = () => {
       setEditor(editor);
     },
     extensions: Extensions,
+    autofocus : true,
     immediatelyRender:false,
     editorProps: {
       attributes: {
